@@ -18,7 +18,7 @@ def largest(list):
          largest_num = n
    return largest_num
 
-print(largest([10, 4, 2, 231, 91, 54]))
+# print(largest([10, 4, 2, 231, 91, 54]))
 
 # ----------Challenge Three-----------
 def section_string(start, end, str1):
@@ -41,3 +41,13 @@ def occurrences(str1, str2):
    return total
 
 # print(occurrences('fleep floop', 'fl'))
+
+# -----------Challenge Four-------------
+
+def product(*args):
+   sum = 1
+   for n in args:
+      sum *= n
+   return sum
+   
+# print(product(-1, 4))
