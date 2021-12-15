@@ -33,7 +33,6 @@ def occurrences(str1, str2):
    # print(range(len(str1)))
    for i in range(len(str1)):
       x = section_string(i, i + len(str2), str1)
-      # ayo what is this doing bruh
       if i + len(str2) > len(str1) - 1:
          return total
       if x == str2:
@@ -43,7 +42,6 @@ def occurrences(str1, str2):
 # print(occurrences('fleep floop', 'fl'))
 
 # -----------Challenge Four-------------
-
 def product(*args):
    sum = 1
    for n in args:
